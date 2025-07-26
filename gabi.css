@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff0f6;
+  color: #333;
+  scroll-behavior: smooth;
+}
+header {
+  background: #ff69b4;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  background: url('hero.jpg') no-repeat center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero .btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: white;
+  color: #ff69b4;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.content-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+.timeline .event {
+  margin: 10px 0;
+  font-size: 18px;
+}
+.gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery img {
+  width: 200px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
+#message-box {
+  background: #ffe0ef;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+#contact-form {
+  max-width: 400px;
+  margin: auto;
+}
+#contact-form input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+#contact-form button {
+  background: #ff69b4;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+footer {
+  background: #ff69b4;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
